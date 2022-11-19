@@ -130,6 +130,7 @@ namespace VRMShaders
 
         public bool IsDescendantOf(PathObject ascendant)
         {
+            return true;
             if (!FullPath.StartsWith(ascendant.FullPath))
             {
                 return false;
